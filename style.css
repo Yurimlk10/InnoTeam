@@ -1,0 +1,96 @@
+/* Corpo da página */
+body {
+    background-color: #101010;
+    font-family: "Montserrat";
+}
+
+
+/* Logo principal centralizado */
+.div-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 350px;
+}
+
+
+/* Titulo principal centralizado */
+.titulo-principal {
+    color: #00FF66;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* Linha divisória */
+.linha-divisoria {
+    background-color: #00FF66;
+    border: 0;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+
+/* Subtítulos */
+.subtitle {
+    color: #A0A0A0;
+    font-size: 35px;
+    text-align: left;
+}
+
+
+/* Textos */
+.text {
+    color: #A0A0A0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Listas */
+li {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.lista {
+    color: #A0A0A0;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+/* div apresentação */
+.apresentation {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitle-names {
+    color: #00FF66;
+    text-align: center;
+}
+
+.fotografia {
+    border-radius: 50%;
+    height: 300px;
+}
+
+
+/* Div contatos */
+.contatos {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icones {
+    width: 100px;
+}
